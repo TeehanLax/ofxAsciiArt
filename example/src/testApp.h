@@ -13,6 +13,7 @@ class testApp : public ofBaseApp{
 		
 		void keyPressed(int key);
 	
+		bool draw_gui;
 		ofPanel gui;
 		ofSlider contrast_slider;
 		ofSlider depth_slider;
